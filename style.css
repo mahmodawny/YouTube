@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
   }
 header{
     display: flex;
@@ -16,7 +21,7 @@ header{
 }
 .left-section img{
     width:40% ;
-    padding-left: 16px;
+    padding-left: 10px;
 }
 
 .mid-section{
@@ -32,7 +37,7 @@ header{
 }
 .mid-section input{
     width: 100%;
-    border-radius: 2px 0 0 2px;
+    border-radius: 20px 0 0 20px;
     padding: 12px;
     font-size: 1.6rem;
     border: 1px solid #d3d3d3;
@@ -42,7 +47,7 @@ header{
 .mid-section button{
     width: 64px;
     border: 1px solid #d3d3d3;
-    border-radius: 0 2px 2px 0;
+    border-radius: 0 20px 20px 0;
     border-top: 4px;
     background-color: #f8f8f8;
     cursor: pointer;
@@ -137,7 +142,7 @@ nav p{
 }
 
 main{
-    width: 100%;
+    flex: 1;
     height: 100%;
     padding: 35px 15px;
     border-top: 1px solid #ddd;
@@ -147,7 +152,7 @@ main{
 .videos-container{
     display: flex;
     flex-direction:row ;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .video{
